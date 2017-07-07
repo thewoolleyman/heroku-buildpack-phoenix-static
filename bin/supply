@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # bin/supply <build-dir> <cache-dir> <env-dir>
 
+
+echo "--------DEBUG: In phoenix static buildpack supply"
+
 build_pack_dir=$(cd $(dirname $(dirname $0)); pwd)
 
 ### Configure environment
